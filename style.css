@@ -1,0 +1,164 @@
+
+body {
+	background: lightblue url("../images/animal-animal-photography-canidae-45242.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 315%;
+        font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+#center {
+	position: relative;
+	top: 200px;
+	margin: 0px auto;
+	width: 200px;
+}
+
+#buttons {
+	position: relative;
+	border: 10px solid #ddd;
+	border-radius: 100px;
+	width: 80px;
+	margin: 30px;
+	box-shadow: 0px 0px 10px #ddd, 0px 10px 0px #aaa;
+	height: 80px;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+}
+
+#buttons:hover {
+	border: 15px solid #ddd;
+	width: 160px;
+	height: 160px;
+	left: -40px;
+	opacity: 1;
+	top: -40px;
+}
+
+#buttons div {
+	position: absolute;
+	opacity: 0;
+	min-width: 100px;
+	top: 15px;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+}
+
+#buttons:hover div {
+	opacity: 1;
+}
+
+#buttons .text {
+	z-index: 5000;
+	top: 25px;
+	opacity: 1;
+	left: -5px;
+	text-shadow: 0 3px 0px rgba(255,255,255,1);
+	font-size: 26px;
+	font-weight: bold;
+}
+
+#buttons:hover .text {
+	top: 60px;
+	left: 35px;
+	opacity: 0;
+}
+
+#buttons:hover div:nth-of-type(2) {
+	top: 0;
+	left: -20px;
+}
+
+#buttons:hover div:nth-of-type(3) {
+	top: 5px;
+	left: 120px;
+}
+
+#buttons:hover div:nth-of-type(4) {
+	top: 65px;
+	left: -68px;
+}
+
+#buttons:hover div:nth-of-type(5) {
+	top: 48px;
+	left: 155px;
+}
+
+#buttons:hover div:nth-of-type(6) {
+	top: 125px;
+	left: -45px;
+}
+
+#buttons:hover div:nth-of-type(7) {
+	top: 105px;
+	left: 125px;
+}
+
+.fb_edge_widget_with_comment iframe {
+    width: 65px !important;
+}
+
+
+/* HEADER IGNORE THIS */
+
+#header {
+	background: #1f21e6;
+	padding: 20px;
+	color: #fff;
+}
+
+#header a {
+	opacity: 1 !important;
+	color: #fff;
+	font-family: 'Myriad Pro', Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	border: 0;
+	text-decoration: none;
+}
+
+#header img {
+	width: 150px;
+	height: 33px;
+	float: none;
+}
+
+#header .button {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	padding: 12px 20px;
+	font-size: 18px;
+	border-radius: 10px;
+	background-color: #666666;	
+	box-shadow: 0 5px 5px #313131, 0 2px 0 #393939, inset 0px 2px 9px rgba(255,255,255,0.2), inset 0 -2px 9px rgba(0,0,0,0.2);
+	position: relative;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+	display: inline-block;
+	float: right;
+	position: relative;
+	bottom: 5px;
+	text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+}
+
+#header .button:hover {
+	box-shadow: 0 5px 5px #313131, 0 2px 0 #393939, 0px 9px 10px rgba(0,0,0,0.4), inset 0px 2px 15px rgba(255,255,255,0.4), inset 0 -2px 9px rgba(0,0,0,0.2);
+}
+
+#header .blue {
+	background: #2a8ad8;
+	box-shadow: 0 2px 0 #25325e, inset 0px 2px 9px rgba(255,255,255,0.2), inset 0 -2px 9px rgba(0,0,0,0.2);
+}
+
+#header .blue:hover {
+	box-shadow: 0 2px 0 #25325e, inset 0px 2px 15px rgba(255,255,255,0.4), inset 0 -2px 9px rgba(0,0,0,0.2);
+}
+#header .blue:active {
+	box-shadow: 0 2px 0 #25325e, 0px 4px 4px rgba(0,0,0,0.3), inset 0px 2px 5px rgba(0,0,0,0.2);
+}
